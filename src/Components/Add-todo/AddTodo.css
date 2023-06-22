@@ -1,0 +1,89 @@
+
+
+.modal-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f9c5d1;
+background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+
+}
+.modal-container
+{
+    position : fixed;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    
+    max-width: 30rem;
+    width: 50%;
+    height: 70%;
+    height: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    color: white;
+    border-radius: 10%;
+}
+.close-btn
+{
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    font-size: 30px;
+    background-color: #4c4177;
+    background: transparent;
+    outline: none;
+    border: 0;
+}
+.close-btn:hover
+{
+    font-size: 40px;
+    cursor: pointer; 
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    
+    30%, 50%, 70% {
+      transform: translate3d(-2px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(2px, 0, 0);
+  }
+}
+.text-box
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.add-btn
+{
+    top: 4%;
+    right: 5%;
+    font-size: 30px;
+    background-color: #4c4177;
+    background: transparent;
+    outline: none;
+    border: 0;
+}
+.add-btn:hover
+{
+
+    cursor: pointer; 
+  }

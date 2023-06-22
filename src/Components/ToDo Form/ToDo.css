@@ -1,0 +1,23 @@
+.todo-form
+{
+    position: relative;
+    height: 80%; 
+    width: 50%;
+    border-color: pink;
+    border-radius: 50px;
+    border-width: 50px;;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn
+{
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    bottom: 10%;
+    left:0%;
+    color: rgb(167, 87, 87);
+    font-size: 60px;
+}
